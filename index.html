@@ -18,21 +18,35 @@
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
             <h1>Saliii ich bin d'Anna Pergher</h1>
         </header>
-        <svg height="300" width="300" version="1.1">
-            <path id="circle-motion" d="M 50 150 L 250 150 Z" stroke="Pink" />
-            <path id="star" d="M 30 100 L 200 Z" stroke="yellow">
-                <circle cx="50" cy="100" r="50" fill="red"
-                <animateMotion dur="5s" repeatCount="indefinite">
-                    <mpath xlink:href="#circle-motion" />
-                </animateMotion>
-            </path>
-        </svg>
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
             denen man auf Unterwebseiten kommt. 
             Dieses Element wird oft in den Header gesetzt, kann aber auch auf
             der linken oder rechten Seite verwendet werden. -->
-
+            <svg height="200" width="300" version="1.1">
+                <path
+                    id="circle-motion"
+                    d="M 50 150 L 250 150 Z"
+                    stroke="white"
+                />
+                />
+                <rect x="70" y="160" width="80" height="80" fill="brown" />
+                <rect
+                    x="150"
+                    y="160"
+                    width="130"
+                    height="80"
+                    fill="lightblue"
+                />
+                <rect x="150" y="180" width="130" height="20" fill="green" />
+                <rect x="10" y="30" width="80" height="40" fill="red">
+                    <animateMotion dur="5s" repeatCount="indefinite">
+                        <mpath xlink:href="#circle-motion" />
+                    </animateMotion>
+                </rect>
+                <rect x="280" y="160" width="20" height="40" fill="grey" />
+                />
+            </svg>
             <ul>
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
@@ -50,6 +64,19 @@
             <!-- Im Hauptelement der Webseite kommt der ganze Inhalt den wir
             anzeigen möchten. Dieser ist meistens in Section-Elemente
             unterteilt. -->
+            <section>
+                <!-- Dieses Element wird verwendet um einen Abschnitt auf der
+                Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
+                verwendet man das p-Element. -->
+                <h2>Erklärung zum Logo:</h2>
+                <p>
+                    <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
+                    ein. Das p-Element hat meistens nur noch Text, Links oder
+                    Bilder drin, sonst keine weiteren Elemente. -->
+                    Ich habe das Jungfraujochbähndli nachgestellt, wie es vom
+                    Bahnhof, durch schöne Landschaft, in den Tunnel fährt.
+                </p>
+            </section>
 
             <section>
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
